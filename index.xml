@@ -15,7 +15,7 @@
       <pubDate>Mon, 26 Jun 2017 15:19:46 +0200</pubDate>
       
       <guid>http://www.daiyi.co/dev-diary/post/hello-world/</guid>
-      <description>&lt;p&gt;One of our goals for the summer is to &lt;em&gt;write&lt;/em&gt; more, so we are aggressively setting up a whole new blog for our dedicated developer diary as we learn about clojure/clojurescript, framework development, and open source contribution!&lt;/p&gt;
+      <description>&lt;p&gt;One of our goals for the summer is to &lt;em&gt;write&lt;/em&gt; more, so we are aggressively setting up a whole new blog for our dedicated developer diary as we learn about clojure/clojurescript, framework development, and open source contribution! Super excited to start working on re-frame next week (I can&amp;rsquo;t believe there&amp;rsquo;s only a week left, what happened to June??)&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-clojure&#34;&gt;;; [silent screaming]
 (println &amp;quot;hello world! \o/&amp;quot;)
