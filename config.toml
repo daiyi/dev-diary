@@ -2,6 +2,7 @@ baseurl = "http://hugo.spf13.com/"
 languageCode = "en-us"
 title = "dev diary of saskia & daiyi"
 theme = "hugo-future-imperfect"
+defaultLayout = "blog"
 # preserveTaxonomyNames = true
 paginate = 3
 # disqusShortname = "shortname"
@@ -43,18 +44,20 @@ paginate = 3
 [params.intro]
     header    = "dev diary!"
 
-    paragraph = "<a href=''>saskia</a> & <a href='http://daiyi.co'>daiyi</a> write about their learnings in clojure(script) and open source"
+    paragraph = "[saskia](/) & [daiyi](http://daiyi.co) write about their learnings in clojure(script) and open source"
+
+    about = "*saskia!* — is super cool, loves clojure! <p>*[daiyi](http://daiyi.co)! (chris)* — a space and time traveler with a sleeping bag and sketchbook ✨ a dirtbag pretending to be a comic artist pretending to be a frontend eng</b>"
 
 
 # This will also appear on the sidebar.
 # A width of less than 100px is recommended
 # This is optional
 [params.intro.pic]
-    src       = "/img/main/logo.jpg"
+    src       = "/saskia-and-daiyi.png"
     # modify your picture in the shape of a circle or
     # future imperfect's hexagonal shape
     circle    = false
-    imperfect = true
+    imperfect = false
     width     = ""
     alt       = "saskia & daiyi!"
 
