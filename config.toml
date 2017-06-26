@@ -1,4 +1,5 @@
 baseurl = "http://www.daiyi.co/dev-diary/"
+relativeurls = true
 languageCode = "en-us"
 title = "dev diary of saskia & daiyi"
 theme = "hugo-future-imperfect_"
