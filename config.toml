@@ -1,7 +1,7 @@
 baseurl = "http://www.daiyi.co/dev-diary/"
 languageCode = "en-us"
 title = "dev diary of saskia & daiyi"
-theme = "hugo-future-imperfect"
+theme = "hugo-future-imperfect_"
 defaultLayout = "blog"
 # preserveTaxonomyNames = true
 paginate = 3

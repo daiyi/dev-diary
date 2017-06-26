@@ -2,7 +2,7 @@
 author = "daiyi & saskia"
 date = "2017-06-26T15:19:46+02:00"
 draft = false
-title = "(println \"Hello world!\")"
+title = "(println \"hello world \\o/\")"
 categories = ["life updates"]
 description = "init blog!"
 type = "post"
@@ -16,7 +16,7 @@ One of our goals for the summer is to _write_ more, so we are aggressively setti
 
 ```clojure
 ;; [silent screaming]
-(println "Hello world!")
+(println "hello world! \o/")
 ```
 
 <3, chris & saskia
