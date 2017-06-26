@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://hugo.spf13.com/</loc>
+    <loc>http://www.daiyi.co/dev-diary/</loc>
     <lastmod>2017-06-26T15:19:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/post/hello-world/</loc>
+    <loc>http://www.daiyi.co/dev-diary/post/hello-world/</loc>
     <lastmod>2017-06-26T15:19:46+02:00</lastmod>
   </url>
   

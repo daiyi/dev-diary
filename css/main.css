@@ -2710,6 +2710,10 @@
 
 		@media screen and (max-width: 980px) {
 
+			#intro img {
+				max-width: 100%;
+			}
+
 			.post {
 				border-left: 0;
 				border-right: 0;
