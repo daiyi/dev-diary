@@ -15,19 +15,19 @@
             {{ end }}
             {{ with .Site.Params.intro }}
                 <header>
-                    <h2>{{ .header }}</h2>
+                    <h2><a href="/">{{ .header }}</h2>
                     <p>{{ .paragraph | markdownify }}</p>
                 </header>
             {{ end }}
-            <!-- <ul class="icons">
+            <ul class="icons">
+                {{ if .Site.Params.socialAppearAtTop }}
+                    {{ partial "social" . }}
+                {{ end }}
                 {{ if .RSSLink }}
                     <li><a href="{{ .RSSLink }}" type="application/rss+xml"
                         target="_blank" title="RSS" class="fa fa-rss"></a></li>
                 {{ end }}
-                {{ if .Site.Params.socialAppearAtTop }}
-                    {{ partial "social" . }}
-                {{ end }}
-            </ul> -->
+            </ul>
         </section>
 
     <!-- Posts List -->
