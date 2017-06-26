@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dev diary of saskia &amp; daiyi</title>
+    <link>http://hugo.spf13.com/</link>
+    <description>Recent content on dev diary of saskia &amp; daiyi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Jun 2017 15:19:46 +0200</lastBuildDate>
+    <atom:link href="http://hugo.spf13.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>(println &#34;Hello world!&#34;)</title>
+      <link>http://hugo.spf13.com/post/hello-world/</link>
+      <pubDate>Mon, 26 Jun 2017 15:19:46 +0200</pubDate>
+      
+      <guid>http://hugo.spf13.com/post/hello-world/</guid>
+      <description>&lt;p&gt;One of our goals for the summer is to &lt;em&gt;write&lt;/em&gt; more, so we are aggressively setting up a whole new blog for our dedicated developer diary as we learn about clojure/clojurescript, framework development, and open source contribution!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-clojure&#34;&gt;;; [silent screaming]
+(println &amp;quot;Hello world!&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&amp;lt;3, chris &amp;amp; saskia&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
