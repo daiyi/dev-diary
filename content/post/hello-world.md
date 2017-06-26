@@ -1,7 +1,7 @@
 +++
 author = "daiyi & saskia"
 date = "2017-06-26T15:19:46+02:00"
-draft = true
+draft = false
 title = "(println \"Hello world!\")"
 categories = ["life updates"]
 description = "init blog!"
