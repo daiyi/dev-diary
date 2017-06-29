@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>dev diary of saskia &amp; daiyi</title>
-    <link>http://www.daiyi.co/dev-diary/</link>
-    <description>Recent content on dev diary of saskia &amp; daiyi</description>
+    <title>By Saskia on dev diary of saskia &amp; daiyi</title>
+    <link>http://www.daiyi.co/dev-diary/categories/by-saskia/</link>
+    <description>Recent content in By Saskia on dev diary of saskia &amp; daiyi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 29 Jun 2017 13:23:41 +0200</lastBuildDate>
-    <atom:link href="http://www.daiyi.co/dev-diary/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.daiyi.co/dev-diary/categories/by-saskia/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>oh this anticipation</title>
@@ -42,22 +42,6 @@ Informations are getting exchanged.&lt;/p&gt;
 &lt;p&gt;Coming from two different sides, I&amp;rsquo;m happy to be working together with Chris on this. She has a strong background in JavaScript and React and I have a bit of practical experience with Clojure. It feels like a really good fit. Our plan for the first couple of days is getting familiar with the ClojureScript toolings and creating some sample applications with Reagent and &lt;em&gt;re-frame&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;m wondering, what will the next three months bring for us? The thought alone puts a smile on my face. We will keep you updated about all the bumps and breakthroughs we will experience. I am very happy and grateful to be part of a team full of inspiring people. Let&amp;rsquo;s see what we can create together!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>(println &#34;hello world \o/&#34;)</title>
-      <link>http://www.daiyi.co/dev-diary/post/hello-world/</link>
-      <pubDate>Mon, 26 Jun 2017 15:19:46 +0200</pubDate>
-      
-      <guid>http://www.daiyi.co/dev-diary/post/hello-world/</guid>
-      <description>&lt;p&gt;One of our goals for the summer is to &lt;em&gt;write&lt;/em&gt; more, so we are aggressively setting up a whole new blog for our dedicated developer diary as we learn about clojure/clojurescript, framework development, and open source contribution! Super excited to start working on re-frame next week (I can&amp;rsquo;t believe there&amp;rsquo;s only a week left, what happened to June??)&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-clojure&#34;&gt;;; [silent screaming]
-(println &amp;quot;hello world! \o/&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&amp;lt;3, chris&lt;/p&gt;
 </description>
     </item>
     

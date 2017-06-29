@@ -34,7 +34,7 @@ Informations are getting exchanged.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;+re-frame
 +========
 +
-+A Reagent Framework 
++A Reagent Framework
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Just thinking about how these four simple lines grew into what the framework is today simply blows my mind.&lt;/p&gt;
@@ -57,7 +57,7 @@ Informations are getting exchanged.&lt;/p&gt;
 (println &amp;quot;hello world! \o/&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&amp;lt;3, chris &amp;amp; saskia&lt;/p&gt;
+&lt;p&gt;&amp;lt;3, chris&lt;/p&gt;
 </description>
     </item>
     
