@@ -5,7 +5,7 @@ title = "dev diary of saskia & daiyi"
 theme = "hugo-future-imperfect_"
 defaultLayout = "blog"
 # preserveTaxonomyNames = true
-paginate = 3
+paginate = 5
 # disqusShortname = "shortname"
 # googleAnalytics = ""
 

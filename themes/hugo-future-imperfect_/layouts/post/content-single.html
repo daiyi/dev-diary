@@ -15,7 +15,7 @@
         {{ .Render "footer-category" }}
     </footer>
 </article>
-{{ .Render "prev-next" }}
+<!-- {{ .Render "prev-next" }} -->
 
 {{ if ne .Site.DisqusShortname "" }}
     {{ if not (in (printf "%#v" .Site.BaseURL) "localhost") }}

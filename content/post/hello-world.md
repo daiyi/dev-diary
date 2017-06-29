@@ -1,9 +1,9 @@
 +++
-author = "daiyi & saskia"
+author = "daiyi"
 date = "2017-06-26T15:19:46+02:00"
 draft = false
 title = "(println \"hello world \\o/\")"
-categories = ["life updates"]
+categories = ["life updates", "by daiyi"]
 description = ""
 type = "post"
 featured = "pic.jpg"
@@ -19,4 +19,4 @@ One of our goals for the summer is to _write_ more, so we are aggressively setti
 (println "hello world! \o/")
 ```
 
-<3, chris & saskia
+<3, chris
