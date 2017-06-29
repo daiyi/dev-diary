@@ -1,9 +1,13 @@
 +++
 author = ""
+date = "{{ .Date }}"
+draft = true
+title = ""
 categories = []
 description = ""
-linktitle = ""
+type = "post"
 featured = ""
 featuredpath = ""
 featuredalt = ""
+linktitle = ""
 +++
