@@ -4,8 +4,12 @@ languageCode = "en-us"
 title = "dev diary of saskia & daiyi"
 theme = "hugo-future-imperfect_"
 defaultLayout = "blog"
-# preserveTaxonomyNames = true
+preserveTaxonomyNames = true
 paginate = 5
+
+[permalinks]
+  post = "/:year/:month/:day/:title/"
+
 # disqusShortname = "shortname"
 # googleAnalytics = ""
 
