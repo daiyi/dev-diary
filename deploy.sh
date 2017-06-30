@@ -1,3 +1,6 @@
+# clean
+rm -rf public/*
+
 # generate
 hugo
 
