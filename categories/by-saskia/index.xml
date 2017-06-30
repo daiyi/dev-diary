@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>By Saskia on dev diary of saskia &amp; daiyi</title>
+    <title>By saskia on dev diary of saskia &amp; daiyi</title>
     <link>http://www.daiyi.co/dev-diary/categories/by-saskia/</link>
-    <description>Recent content in By Saskia on dev diary of saskia &amp; daiyi</description>
+    <description>Recent content in By saskia on dev diary of saskia &amp; daiyi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 29 Jun 2017 13:23:41 +0200</lastBuildDate>
@@ -11,10 +11,10 @@
     
     <item>
       <title>oh this anticipation</title>
-      <link>http://www.daiyi.co/dev-diary/post/oh-this-anticipation/</link>
+      <link>http://www.daiyi.co/dev-diary/2017/06/29/oh-this-anticipation/</link>
       <pubDate>Thu, 29 Jun 2017 13:23:41 +0200</pubDate>
       
-      <guid>http://www.daiyi.co/dev-diary/post/oh-this-anticipation/</guid>
+      <guid>http://www.daiyi.co/dev-diary/2017/06/29/oh-this-anticipation/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s really happening. After many months of anticipation, we&amp;rsquo;re so close to finally start working on &lt;em&gt;re-frame&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Levels of excitement are raising.&lt;br /&gt;

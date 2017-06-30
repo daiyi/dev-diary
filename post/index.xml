@@ -11,10 +11,10 @@
     
     <item>
       <title>oh this anticipation</title>
-      <link>http://www.daiyi.co/dev-diary/post/oh-this-anticipation/</link>
+      <link>http://www.daiyi.co/dev-diary/2017/06/29/oh-this-anticipation/</link>
       <pubDate>Thu, 29 Jun 2017 13:23:41 +0200</pubDate>
       
-      <guid>http://www.daiyi.co/dev-diary/post/oh-this-anticipation/</guid>
+      <guid>http://www.daiyi.co/dev-diary/2017/06/29/oh-this-anticipation/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s really happening. After many months of anticipation, we&amp;rsquo;re so close to finally start working on &lt;em&gt;re-frame&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Levels of excitement are raising.&lt;br /&gt;
@@ -47,10 +47,10 @@ Informations are getting exchanged.&lt;/p&gt;
     
     <item>
       <title>(println &#34;hello world \o/&#34;)</title>
-      <link>http://www.daiyi.co/dev-diary/post/hello-world/</link>
+      <link>http://www.daiyi.co/dev-diary/2017/06/26/println-hello-world-%5Co/</link>
       <pubDate>Mon, 26 Jun 2017 15:19:46 +0200</pubDate>
       
-      <guid>http://www.daiyi.co/dev-diary/post/hello-world/</guid>
+      <guid>http://www.daiyi.co/dev-diary/2017/06/26/println-hello-world-%5Co/</guid>
       <description>&lt;p&gt;One of our goals for the summer is to &lt;em&gt;write&lt;/em&gt; more, so we are aggressively setting up a whole new blog for our dedicated developer diary as we learn about clojure/clojurescript, framework development, and open source contribution! Super excited to start working on re-frame next week (I can&amp;rsquo;t believe there&amp;rsquo;s only a week left, what happened to June??)&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-clojure&#34;&gt;;; [silent screaming]
