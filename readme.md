@@ -17,5 +17,5 @@ run for the first time:
 
 and then from here on out you can just run this each time, the deploy script from within root directory:
 ```bash
-./deploy
+./deploy.sh
 ```
