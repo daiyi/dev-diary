@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>http://www.daiyi.co/dev-diary/</loc>
-    <lastmod>2017-06-29T13:23:41+02:00</lastmod>
-    <priority>0</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>http://www.daiyi.co/dev-diary/2017/06/29/oh-this-anticipation/</loc>
@@ -15,6 +10,47 @@
   <url>
     <loc>http://www.daiyi.co/dev-diary/2017/06/26/println-hello-world-%5Co/</loc>
     <lastmod>2017-06-26T15:19:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.daiyi.co/dev-diary/categories/by-daiyi/</loc>
+    <lastmod>2017-06-26T15:19:46+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.daiyi.co/dev-diary/categories/by-saskia/</loc>
+    <lastmod>2017-06-29T13:23:41+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.daiyi.co/dev-diary/categories/</loc>
+    <lastmod>2017-06-26T15:19:46+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.daiyi.co/dev-diary/categories/life-updates/</loc>
+    <lastmod>2017-06-29T13:23:41+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.daiyi.co/dev-diary/post/</loc>
+    <lastmod>2017-06-29T13:23:41+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.daiyi.co/dev-diary/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.daiyi.co/dev-diary/</loc>
+    <lastmod>2017-06-29T13:23:41+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

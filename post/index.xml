@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 29 Jun 2017 13:23:41 +0200</lastBuildDate>
-    <atom:link href="http://www.daiyi.co/dev-diary/post/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://www.daiyi.co/dev-diary/post/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>oh this anticipation</title>
@@ -15,34 +17,12 @@
       <pubDate>Thu, 29 Jun 2017 13:23:41 +0200</pubDate>
       
       <guid>http://www.daiyi.co/dev-diary/2017/06/29/oh-this-anticipation/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s really happening. After many months of anticipation, we&amp;rsquo;re so close to finally start working on &lt;em&gt;re-frame&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Levels of excitement are raising.&lt;br /&gt;
-Preparations are being made.&lt;br /&gt;
-Informations are getting exchanged.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Only four more days!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;It fascinates me to realize how many people put time and energy into making this experience possible. Five months ago, my job ended unexpectedly. The next day, I saw that applications for Rails Girls Summer of Code were opening. What a happy coincidence. Through a common friend, Chris and I got connected and things started to fall into place. We talked to many people and found six amazing coaches that were willing to support us throughout the project.&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;Clojure community in Berlin&lt;/strong&gt; had a big positive influence on both of us, which made the decision for a particular project quite easy. We wanted to deepen our experience with ClojureScript and contribute to the community that has welcomed us in such a beautiful way.&lt;/p&gt;
-
-&lt;p&gt;This morning, we talked to the project maintainers for the first time. It was a great way to get a bit more of a bigger picture. They told us that &lt;em&gt;re-frame&lt;/em&gt; emerged out of the intention to create richer and more sophisticated clients, which puts more stress on the client side of things than usual.&lt;/p&gt;
-
-&lt;p&gt;I always ask myself, how do people start larger projects? What does the first commit look like? Well, I am going to tell you, because I could not resist to have a look at it. Here are the first lines of &lt;em&gt;re-frame&lt;/em&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;+re-frame
-+========
-+
-+A Reagent Framework
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Just thinking about how these four simple lines grew into what the framework is today simply blows my mind.&lt;/p&gt;
-
-&lt;p&gt;Coming from two different sides, I&amp;rsquo;m happy to be working together with Chris on this. She has a strong background in JavaScript and React and I have a bit of practical experience with Clojure. It feels like a really good fit. Our plan for the first couple of days is getting familiar with the ClojureScript toolings and creating some sample applications with Reagent and &lt;em&gt;re-frame&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m wondering, what will the next three months bring for us? The thought alone puts a smile on my face. We will keep you updated about all the bumps and breakthroughs we will experience. I am very happy and grateful to be part of a team full of inspiring people. Let&amp;rsquo;s see what we can create together!&lt;/p&gt;
-</description>
+      <description>It&amp;rsquo;s really happening. After many months of anticipation, we&amp;rsquo;re so close to finally start working on re-frame.
+Levels of excitement are raising.
+Preparations are being made.
+Informations are getting exchanged.
+Only four more days!
+It fascinates me to realize how many people put time and energy into making this experience possible. Five months ago, my job ended unexpectedly. The next day, I saw that applications for Rails Girls Summer of Code were opening.</description>
     </item>
     
     <item>
@@ -51,14 +31,8 @@ Informations are getting exchanged.&lt;/p&gt;
       <pubDate>Mon, 26 Jun 2017 15:19:46 +0200</pubDate>
       
       <guid>http://www.daiyi.co/dev-diary/2017/06/26/println-hello-world-%5Co/</guid>
-      <description>&lt;p&gt;One of our goals for the summer is to &lt;em&gt;write&lt;/em&gt; more, so we are aggressively setting up a whole new blog for our dedicated developer diary as we learn about clojure/clojurescript, framework development, and open source contribution! Super excited to start working on re-frame next week (I can&amp;rsquo;t believe there&amp;rsquo;s only a week left, what happened to June??)&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-clojure&#34;&gt;;; [silent screaming]
-(println &amp;quot;hello world! \o/&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&amp;lt;3, chris&lt;/p&gt;
-</description>
+      <description>One of our goals for the summer is to write more, so we are aggressively setting up a whole new blog for our dedicated developer diary as we learn about clojure/clojurescript, framework development, and open source contribution! Super excited to start working on re-frame next week (I can&amp;rsquo;t believe there&amp;rsquo;s only a week left, what happened to June??)
+;; [silent screaming] (println &amp;quot;hello world! \o/&amp;quot;)  &amp;lt;3, chris</description>
     </item>
     
   </channel>
