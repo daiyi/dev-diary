@@ -29,7 +29,7 @@
 
 
 
-<meta property="og:updated_time" content="2017-06-29T13:23:41&#43;02:00"/>
+<meta property="og:updated_time" content="2017-08-03T00:06:44&#43;02:00"/>
 
 
 
@@ -169,6 +169,10 @@
 
                 
                     <li>
+                        <a href="http://www.daiyi.co/dev-diary/2017/08/03/things-are-taking-shape/"><p>Things are taking shape</p></a>
+                    </li>
+                
+                    <li>
                         <a href="http://www.daiyi.co/dev-diary/2017/06/29/oh-this-anticipation/"><p>oh this anticipation</p></a>
                     </li>
                 
@@ -192,6 +196,107 @@
         
 
         
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="http://www.daiyi.co/dev-diary/2017/08/03/things-are-taking-shape/">Things are taking shape</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2017-08-03'>
+            August 3, 2017</time>
+        <span class="author">saskia</span>
+        
+        
+    </div>
+</header>
+
+
+    
+    
+
+    <div id="content">
+        
+
+<h2 id="some-thoughts">Some Thoughts</h2>
+
+<p>Is it already beginning of August? That&rsquo;s what my calender says, I&rsquo;m not sure if I can believe it though. The last weeks have been filled with coding, exchanging thoughts and organizing multiple calenders. So far, our blog has been protected from the flood of knowledge that is accumulating in our heads. It&rsquo;s time to change that! Here are some thoughts on our current state and my intention for this space.</p>
+
+<p>Writing is fun. Writing is also time consuming. I know it&rsquo;s a matter of practice, so let&rsquo;s make it a goal for this week! I feel happy that I found some time to sit down and organize my thoughts about the first third of our project. There are so many ways of filling this blog with life. Personal status updates, learnings, code walk-throughs&hellip; There will be a mix of everything at the end of the summer. I see writing as my break from coding. The empty page will be there for me excitedly waiting to be filled with letters when my brain is unable to reason about why my browser console won&rsquo;t spare me with these beautifully red glowing stacktraces.</p>
+
+<p>During the last weeks, I have thought a lot about what a good outcome of this project would look like for me. After gathering all of the thoughts that have been running through my mind, I found my personal goals for this summer:</p>
+
+<h3 id="goal-of-improving-my-programming-skills">Goal of Improving my programming skills</h3>
+
+<pre><code>(-&gt;&gt; (repeat &quot;coding! &quot;) (take (rand-int 10000)) (reduce str) str/trim)
+</code></pre>
+
+<p><strong>Big Picture.</strong> I realized that I often fall into the trap of focusing too strongly on the code details. I easily understand what&rsquo;s happening inside of a function, but seeing the bigger picture takes more time. I want to bring more awareness to zooming out every once in a while to understand which part of the system is being affected by what I&rsquo;m working on. This also helps to realize early on if something is worth following through. Keep in mind to avoid <em>bikeshedding</em> and identify challenges and blockers early on!</p>
+
+<p><strong>Sense for Taste.</strong> A conversation with one of our coaches highlighted the importance of reflecting on one&rsquo;s own practices and figuring out how things are done ideally. Look at how other people approach problems and identify which patterns they use. Try out different solutions and write down what worked well and what didn&rsquo;t. Make reading code a habit, there are so many amazing publicly available projects out there!</p>
+
+<p><strong>Simplicity.</strong> Learn how to find simple solutions. Be aware when writing entangled code that is difficult to grasp for others and yourself and start to refactor. Identify the next step and reflect on its importance. Thinking of simplicity in the Clojure world is inevitably linked to Rich Hickey&rsquo;s talk <a href="https://www.infoq.com/presentations/Simple-Made-Easy">Simple Made Easy</a>).</p>
+
+<p><strong>Experience.</strong> Writing code can be the most fun and also the most painful part of being a programmer. I love the feeling of getting in the flow and every time I get to write code on a regular basis, I&rsquo;m able to see my progress within short periods of time. It&rsquo;s thrilling to see new ways of thinking developing that gradually help me to improve my code quality. On top of that, understanding how and why the tooling works the way it does is of tremendous value. Nobody likes to be blocked by things that are related with tooling.</p>
+
+<h3 id="goal-of-creating-a-knowledge-base">Goal of Creating a Knowledge Base</h3>
+
+<p>For me, there&rsquo;s something exciting about organizing knowledge. I literally safe everything of importance that I hear or read about. Which usually leads to a bunch of markdown files full of good stuff sitting on my hard drive. Not having to remember all the little details has helped me in many situations, especially in my work life. I want to work on the presentation and access of this knowledge so it can be of use not only for myself, but also for others. Looking at this project, I have two different ideas in mind:</p>
+
+<p><strong>Guides.</strong> Writing guides containing a comprehensive summary of information needed in order to understand a certain technology or pattern.</p>
+
+<p><strong>Resources.</strong> There is so much good learning material out there, which makes it challenging to get an overview. Especially for beginners, it often is not evident where to start and how to set priorities. I like the idea of creating overviews. A great example is the collection of <a href="https://github.com/matthiasn/Clojure-Resources">Clojure resources</a> that has been quite useful for me in the past. At the moment, we get to learn about so many things on a daily basis, which gives me the opportunity to create my own overview of gathered resources and personal reflections. At some point, I intend to make a post about all the resources we used during the project pointing people to the ones that might be most useful for them based on their level of experience.</p>
+
+<h3 id="goal-of-making-writing-a-habit">Goal of Making Writing a Habit</h3>
+
+<p>I will use this opportunity to learn how to break things down and continually write a bit every day. Instead of gathering tons of information over weeks, it&rsquo;s better to get my thoughts out on more specific chunks and in real time. One of my intentions is to learn how to collect the most basic information needed in order to understand how to do something. For example: What are the most important things I need to know so that I can build my own application with reagent? Remember: <em>more writing, less perfectionism.</em></p>
+
+<h3 id="goal-of-good-communication">Goal of Good Communication</h3>
+
+<p>Communication has such a big influence on my productivity and mood. I&rsquo;m becoming more and more aware of my use of language and seeing its impact . It actually started with the Clojure community in Berlin. After attending ClojureBridge, I was bursting with energy and motivation. I wanted to understand what made this workshop experience so special for me and realized next to many other things like being welcoming, dedicated and supportive, it was the positive language of the ClojureBridge organizers and coaches that left me with a feeling of excitement.</p>
+
+    </div>
+
+    <footer>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='./categories/life-updates'>life updates</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
+
+
+
         
             <article class="post">
     <header>
@@ -480,6 +585,20 @@ Informations are getting exchanged.</p>
                     <li>
                         <article>
                             <header>
+                                <h3><a href="http://www.daiyi.co/dev-diary/2017/08/03/things-are-taking-shape/">Things are taking shape</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-08-03'>
+                                    August 3, 2017</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
                                 <h3><a href="http://www.daiyi.co/dev-diary/2017/06/29/oh-this-anticipation/">oh this anticipation</a></h3>
                                 
                                     
@@ -513,8 +632,8 @@ Informations are getting exchanged.</p>
                                     
                                 
                                 <time class="published" datetime=
-                                    '2017-06-29'>
-                                    June 29, 2017</time>
+                                    '2017-08-03'>
+                                    August 3, 2017</time>
                             </header>
                         </article>
                     </li>
@@ -543,7 +662,7 @@ Informations are getting exchanged.</p>
                         <article>
                             <header>
                                 <a href="./categories/life-updates/">life updates</a>
-                                <span style="float:right;">2</span>
+                                <span style="float:right;">3</span>
                             </header>
                         </article>
                     </li>
