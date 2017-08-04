@@ -14,15 +14,21 @@ linktitle = ""
 
 ## Some Thoughts
 
-Is it already beginning of August? That's what my calender says, I'm not sure if I can believe it though. The last weeks have been filled with coding, exchanging thoughts and organizing multiple calenders. So far, our blog has been protected from the flood of knowledge that is accumulating in our heads. It's time to change that! Here are some thoughts on our current state and my intention for this space. 
+Is it already the beginning of August? That's what my calender says, I'm not sure if I can believe it though. The last weeks have been filled with coding, exchanging ideas with my team and organizing our calenders. So far, our blog has not been able to keep up with the flood of knowledge that is accumulating in our heads. It's time to change that! Here are some thoughts on our current state and my intention for this space. 
 
 
 [//]: # (writing)
-Writing is fun. Writing is also time consuming. I know it's a matter of practice, so let's make it a goal for this week! I feel happy that I found some time to sit down and organize my thoughts about the first third of our project. There are so many ways of filling this blog with life. Personal status updates, learnings, code walk-throughs... There will be a mix of everything at the end of the summer. I see writing as my break from coding. The empty page will be there for me excitedly waiting to be filled with letters when my brain is unable to reason about why my browser console won't spare me with these beautifully red glowing stacktraces. 
+Writing is fun. But writing is also time consuming. I know it's a matter of practice, so let's make it a goal for this week! There are so many ways of filling this blog with life. Personal status updates, code walk-throughs or my latest decision of learning yet another 
+```
+(nth ["language" "dance style" "instrument" "random skill"] (rand-int 4))
+```
+
+
+I see writing as my break from coding. The empty page will be there patiently waiting for me to fill it with letters when my brain is unable to understand why my browser console won't spare me with these beautiful red glowing stacktraces. 
 
 
 [//]: # (goals for this summer)
-During the last weeks, I have thought a lot about what a good outcome of this project would look like for me. After gathering all of the thoughts that have been running through my mind, I found my personal goals for this summer: 
+I thought a lot about what a good outcome of this project would look like for me. After gathering all of the thoughts that have been running through my mind, I found my personal goals for this summer: 
 
 ### Goal of Improving my programming skills
 
