@@ -232,7 +232,7 @@
 
 <h1 id="devtools-for-re-frame">DevTools for re-frame</h1>
 
-<p>This summer, we worked on a project that was focused on improving the developer experience with re-frame. We want to give an overview of the tool and summarize our contributions in the following post.</p>
+<p>This summer, we worked on a project that was focused on improving the developer experience with <a href="https://github.com/Day8/re-frame">re-frame</a>. We want to give an overview of the tool and summarize our contributions in the following post.</p>
 
 <h2 id="the-joy-of-debugging">The Joy of Debugging</h2>
 
@@ -244,7 +244,7 @@
 
 <h2 id="what-is-re-frame">What is re-frame?</h2>
 
-<p>re-frame is a ClojureScript framework for building single-page applications with <a href="https://github.com/reagent-project/reagent">Reagent</a>. If you&rsquo;re from the JavaScript world, you can see that re-frame has a similar spirit as Redux. It manages the data flow through your application and enables a clear separation of concerns. Especially when working with large application state, re-frame adds a lot of value to the developer experience.</p>
+<p>re-frame is a ClojureScript framework for building single-page applications with <a href="https://github.com/reagent-project/reagent">Reagent</a>. If you&rsquo;re from the JavaScript world, you can see that re-frame has a similar spirit to <a href="http://redux.js.org/">Redux</a>. It manages the data flow through your application and enables a clear separation of concerns. Especially when working with large application state, re-frame adds a lot of value to the developer experience.</p>
 
 <h2 id="what-is-re-frame-trace">What is re-frame trace?</h2>
 
@@ -259,25 +259,28 @@
 <p>So what are our major contributions?</p>
 
 <ul>
-<li>Filter Improvements: The developer has multiple options to filter for the information he needs to focus on. He can search for traces containing one or more specific keywords. In cases when performance is important, it is possible to add a filter that show traces that took longer than a specific number of milliseconds. Four general trace categories help to reduce the amount of traces that are being displayed depending on the use case.</li>
-<li>App-State Visualization: Using the formatting that <a href="https://github.com/binaryage/cljs-devtools/">cljs-devtools</a> provides, we were able to add a new tab to the tracing window that displays the current values in the app state.</li>
-<li>Usability Improvements: The tracing window can be smoothly adapted in width and details can be expanded and collapsed for individual traces or for all at once. Overall, we achieved to present the traces in a clean and extendable way so that the developer is not overloaded with too much information at once.</li>
-<li>Documentation: We wrote documentation for how to set up the tracing tool for re-frame projects and added a section to help developers set up the project for development.</li>
+<li><strong>Filter Improvements</strong>: The developer has multiple options to filter for the information he needs to focus on. He can search for traces containing one or more specific keywords. In cases when performance is important, it is possible to add a filter that show traces that took longer than a specific number of milliseconds. Four general trace categories help to reduce the amount of traces that are being displayed depending on the use case.</li>
+<li><strong>App-State Visualization</strong>: Using the formatting that <a href="https://github.com/binaryage/cljs-devtools/">cljs-devtools</a> provides, we were able to add a new tab to the tracing window that displays the current values in the app state.</li>
+<li><strong>Usability Improvements</strong>: The tracing window can be smoothly adapted in width and details can be expanded and collapsed for individual traces or for all at once. In a nutshell, we were able to present the traces in a clean and extendable way so that the developer is not overloaded with too much information at once.</li>
+<li><strong>Documentation</strong>: We wrote documentation for how to set up the tracing tool for re-frame projects and added a section to help developers set up the project for development.</li>
 </ul>
 
 <h2 id="what-can-you-do-with-re-frame-trace">What can you do with re-frame trace?</h2>
 
 <p>We put together three exemplary scenarios for which re-frame trace can be used.</p>
 
-<p><strong>Scenario 1:</strong> I want to see all events including dispatch values that have been triggered.</p>
+<p><strong>Scenario 1:</strong> I want to see all events including dispatch values that have been triggered.<br />
+(click <a href="./filter-events.gif">here</a> to enlarge gif)</p>
 
 <p><img src="filter-events.gif" alt="re-frame trace demonstrating the category filter" /></p>
 
-<p><strong>Scenario 2:</strong> I only want to see events for checking todos that took longer than 5 milliseconds.</p>
+<p><strong>Scenario 2:</strong> I only want to see events for checking todos that took longer than 5 milliseconds.<br />
+(click <a href="./filtering.gif">here</a> to enlarge gif)</p>
 
 <p><img src="filtering.gif" alt="re-frame trace demonstrating keyword and time filtering" /></p>
 
-<p><strong>Scenario 3:</strong> I want to inspect the current values of the app-state.</p>
+<p><strong>Scenario 3:</strong> I want to inspect the current values of the app-state.<br />
+(click <a href="./app-state.gif">here</a> to enlarge gif)</p>
 
 <p><img src="app-state.gif" alt="re-frame trace demonstrating the app-state tab" /></p>
 
