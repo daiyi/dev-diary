@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.daiyi.co/dev-diary/2017/10/19/re-frame-trace/</loc>
+    <lastmod>2017-10-19T10:18:04+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.daiyi.co/dev-diary/2017/08/03/things-are-taking-shape/</loc>
     <lastmod>2017-08-03T00:06:44+02:00</lastmod>
   </url>
@@ -25,13 +30,19 @@
   
   <url>
     <loc>http://www.daiyi.co/dev-diary/categories/by-saskia/</loc>
-    <lastmod>2017-06-29T13:23:41+02:00</lastmod>
+    <lastmod>2017-10-19T10:18:04+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.daiyi.co/dev-diary/categories/</loc>
     <lastmod>2017-06-26T15:19:46+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.daiyi.co/dev-diary/categories/clojurescript/</loc>
+    <lastmod>2017-10-19T10:18:04+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -43,7 +54,13 @@
   
   <url>
     <loc>http://www.daiyi.co/dev-diary/post/</loc>
-    <lastmod>2017-08-03T00:06:44+02:00</lastmod>
+    <lastmod>2017-10-19T10:18:04+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.daiyi.co/dev-diary/categories/re-frame/</loc>
+    <lastmod>2017-10-19T10:18:04+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -54,7 +71,7 @@
   
   <url>
     <loc>http://www.daiyi.co/dev-diary/</loc>
-    <lastmod>2017-08-03T00:06:44+02:00</lastmod>
+    <lastmod>2017-10-19T10:18:04+02:00</lastmod>
     <priority>0</priority>
   </url>
   

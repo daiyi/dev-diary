@@ -6,10 +6,29 @@
     <description>Recent content in By saskia on dev diary of saskia &amp; daiyi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Jun 2017 13:23:41 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 19 Oct 2017 10:18:04 +0200</lastBuildDate>
     
 	<atom:link href="http://www.daiyi.co/dev-diary/categories/by-saskia/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>re-frame trace</title>
+      <link>http://www.daiyi.co/dev-diary/2017/10/19/re-frame-trace/</link>
+      <pubDate>Thu, 19 Oct 2017 10:18:04 +0200</pubDate>
+      
+      <guid>http://www.daiyi.co/dev-diary/2017/10/19/re-frame-trace/</guid>
+      <description>DevTools for re-frame This summer, we worked on a project that was focused on improving the developer experience with re-frame. We want to give an overview of the tool and summarize our contributions in the following post.
+The Joy of Debugging How often do you print something to the console? I do it quite often. My application does not work as expected and I need to go into various places in the code to figure out what is causing the problem.</description>
+    </item>
+    
+    <item>
+      <title>Things are taking shape</title>
+      <link>http://www.daiyi.co/dev-diary/2017/08/03/things-are-taking-shape/</link>
+      <pubDate>Thu, 03 Aug 2017 00:06:44 +0200</pubDate>
+      
+      <guid>http://www.daiyi.co/dev-diary/2017/08/03/things-are-taking-shape/</guid>
+      <description>Some Thoughts Is it already the beginning of August? That&amp;rsquo;s what my calender says, I&amp;rsquo;m not sure if I can believe it though. The last weeks have been filled with coding, exchanging ideas with my team and organizing our calenders. So far, our blog has not been able to keep up with the flood of knowledge that is accumulating in our heads. It&amp;rsquo;s time to change that! Here are some thoughts on our current state and my intention for this space.</description>
+    </item>
     
     <item>
       <title>oh this anticipation</title>

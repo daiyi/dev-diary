@@ -6,10 +6,20 @@
     <description>Recent content in Posts on dev diary of saskia &amp; daiyi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Aug 2017 00:06:44 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 19 Oct 2017 10:18:04 +0200</lastBuildDate>
     
 	<atom:link href="http://www.daiyi.co/dev-diary/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>re-frame trace</title>
+      <link>http://www.daiyi.co/dev-diary/2017/10/19/re-frame-trace/</link>
+      <pubDate>Thu, 19 Oct 2017 10:18:04 +0200</pubDate>
+      
+      <guid>http://www.daiyi.co/dev-diary/2017/10/19/re-frame-trace/</guid>
+      <description>DevTools for re-frame This summer, we worked on a project that was focused on improving the developer experience with re-frame. We want to give an overview of the tool and summarize our contributions in the following post.
+The Joy of Debugging How often do you print something to the console? I do it quite often. My application does not work as expected and I need to go into various places in the code to figure out what is causing the problem.</description>
+    </item>
     
     <item>
       <title>Things are taking shape</title>

@@ -23,9 +23,18 @@
     <item>
       <title>By saskia</title>
       <link>http://www.daiyi.co/dev-diary/categories/by-saskia/</link>
-      <pubDate>Thu, 29 Jun 2017 13:23:41 +0200</pubDate>
+      <pubDate>Thu, 19 Oct 2017 10:18:04 +0200</pubDate>
       
       <guid>http://www.daiyi.co/dev-diary/categories/by-saskia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ClojureScript</title>
+      <link>http://www.daiyi.co/dev-diary/categories/clojurescript/</link>
+      <pubDate>Thu, 19 Oct 2017 10:18:04 +0200</pubDate>
+      
+      <guid>http://www.daiyi.co/dev-diary/categories/clojurescript/</guid>
       <description></description>
     </item>
     
@@ -35,6 +44,15 @@
       <pubDate>Thu, 03 Aug 2017 00:06:44 +0200</pubDate>
       
       <guid>http://www.daiyi.co/dev-diary/categories/life-updates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Re-frame</title>
+      <link>http://www.daiyi.co/dev-diary/categories/re-frame/</link>
+      <pubDate>Thu, 19 Oct 2017 10:18:04 +0200</pubDate>
+      
+      <guid>http://www.daiyi.co/dev-diary/categories/re-frame/</guid>
       <description></description>
     </item>
     

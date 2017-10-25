@@ -4,7 +4,7 @@
     <head>
         
             
-                <title>dev diary of saskia &amp; daiyi</title>
+                <title>re-frame trace</title>
             
         
 
@@ -15,6 +15,8 @@
 
 
         
+            <meta name="author" content="saskia">
+        
         
             
                 <meta name="description" content="saskia &amp; daiyi write about their learnings in clojure(script)">
@@ -22,14 +24,28 @@
         
 
         
-        <meta property="og:title" content="dev diary of saskia &amp; daiyi" />
-<meta property="og:description" content="saskia &amp; daiyi write about their learnings in clojure(script)" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://www.daiyi.co/dev-diary/" />
+
+  <meta name="twitter:card" content="summary"/>
 
 
 
-<meta property="og:updated_time" content="2017-10-19T10:18:04&#43;02:00"/>
+<meta name="twitter:text:title" content="re-frame trace"/>
+<meta name="twitter:title" content="re-frame trace"/>
+<meta name="twitter:description" content="DevTools for re-frame This summer, we worked on a project that was focused on improving the developer experience with re-frame. We want to give an overview of the tool and summarize our contributions in the following post.
+The Joy of Debugging How often do you print something to the console? I do it quite often. My application does not work as expected and I need to go into various places in the code to figure out what is causing the problem."/>
+<meta name="twitter:site" content="@daiyitastic"/>
+
+        <meta property="og:title" content="re-frame trace" />
+<meta property="og:description" content="DevTools for re-frame This summer, we worked on a project that was focused on improving the developer experience with re-frame. We want to give an overview of the tool and summarize our contributions in the following post.
+The Joy of Debugging How often do you print something to the console? I do it quite often. My application does not work as expected and I need to go into various places in the code to figure out what is causing the problem." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.daiyi.co/dev-diary/2017/10/19/re-frame-trace/" />
+
+
+
+<meta property="article:published_time" content="2017-10-19T10:18:04&#43;02:00"/>
+<meta property="article:modified_time" content="2017-10-19T10:18:04&#43;02:00"/>
+
 
 
 
@@ -41,9 +57,17 @@
 
 
         
-<meta itemprop="name" content="dev diary of saskia &amp; daiyi">
-<meta itemprop="description" content="saskia &amp; daiyi write about their learnings in clojure(script)">
+<meta itemprop="name" content="re-frame trace">
+<meta itemprop="description" content="DevTools for re-frame This summer, we worked on a project that was focused on improving the developer experience with re-frame. We want to give an overview of the tool and summarize our contributions in the following post.
+The Joy of Debugging How often do you print something to the console? I do it quite often. My application does not work as expected and I need to go into various places in the code to figure out what is causing the problem.">
 
+
+<meta itemprop="dateModified" content="2017-10-19T10:18:04&#43;02:00" />
+<meta itemprop="wordCount" content="737">
+
+
+
+<meta itemprop="keywords" content="ClojureScript,by daiyi,by saskia,life updates,re-frame," />
 
         
 
@@ -56,11 +80,11 @@
 
         
         
-            <link rel="stylesheet" href="./css/google-font.css" />
-            <link rel="stylesheet" href="./css/font-awesome.min.css" />
-            <link rel="stylesheet" href="./css/main.css" />
-            <link rel="stylesheet" href="./css/add-on.css" />
-            <link rel="stylesheet" href="./css/monokai-sublime.css">
+            <link rel="stylesheet" href="../../../../css/google-font.css" />
+            <link rel="stylesheet" href="../../../../css/font-awesome.min.css" />
+            <link rel="stylesheet" href="../../../../css/main.css" />
+            <link rel="stylesheet" href="../../../../css/add-on.css" />
+            <link rel="stylesheet" href="../../../../css/monokai-sublime.css">
         
 
         
@@ -80,7 +104,7 @@
     
 <header id="header">
     
-        <h1><a href="./">dev diary!</i></a></h1>
+        <h2><a href="../../../../">dev diary!</i></a></h2>
     
 
     <nav class="links">
@@ -195,17 +219,70 @@
         
 </section>
 
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fwww.daiyi.co%2fdev-diary%2f2017%2f10%2f19%2fre-frame-trace%2f&text=re-frame%20trace&via=daiyitastic" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=http%3a%2f%2fwww.daiyi.co%2fdev-diary%2f2017%2f10%2f19%2fre-frame-trace%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.daiyi.co%2fdev-diary%2f2017%2f10%2f19%2fre-frame-trace%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fwww.daiyi.co%2fdev-diary%2f2017%2f10%2f19%2fre-frame-trace%2f&title=re-frame%20trace" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fwww.daiyi.co%2fdev-diary%2f2017%2f10%2f19%2fre-frame-trace%2f&title=re-frame%20trace" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="//www.stumbleupon.com/submit?url=http%3a%2f%2fwww.daiyi.co%2fdev-diary%2f2017%2f10%2f19%2fre-frame-trace%2f&title=re-frame%20trace" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by saskia&body=http%3a%2f%2fwww.daiyi.co%2fdev-diary%2f2017%2f10%2f19%2fre-frame-trace%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+</section>
+
     
     <div id="main">
         
-
         
-        
-            <article class="post">
+        <article class="post">
     <header>
     <div class="title">
         
-            <h2><a href="http://www.daiyi.co/dev-diary/2017/10/19/re-frame-trace/">re-frame trace</a></h2>
+            <h1><a href="http://www.daiyi.co/dev-diary/2017/10/19/re-frame-trace/">re-frame trace</a></h1>
+            
         
         
     </div>
@@ -313,119 +390,11 @@
 
     
     
-        <li><a href='./categories/clojurescript'>ClojureScript</a></li>
+        <li><a href='../../../../categories/clojurescript'>ClojureScript</a></li>
     
-        <li><a href='./categories/re-frame'>re-frame</a></li>
+        <li><a href='../../../../categories/re-frame'>re-frame</a></li>
     
-        <li><a href='./categories/by-saskia'>by saskia</a></li>
-    
-</ul>
-
-    </footer>
-</article>
-
-
-
-
-        
-            <article class="post">
-    <header>
-    <div class="title">
-        
-            <h2><a href="http://www.daiyi.co/dev-diary/2017/08/03/things-are-taking-shape/">Things are taking shape</a></h2>
-        
-        
-    </div>
-    <div class="meta">
-        
-            
-        
-
-        <time class="published"
-            datetime='2017-08-03'>
-            August 3, 2017</time>
-        <span class="author">saskia</span>
-        
-        
-    </div>
-</header>
-
-
-    
-    
-
-    <div id="content">
-        
-
-<h2 id="some-thoughts">Some Thoughts</h2>
-
-<p>Is it already the beginning of August? That&rsquo;s what my calender says, I&rsquo;m not sure if I can believe it though. The last weeks have been filled with coding, exchanging ideas with my team and organizing our calenders. So far, our blog has not been able to keep up with the flood of knowledge that is accumulating in our heads. It&rsquo;s time to change that! Here are some thoughts on our current state and my intention for this space.</p>
-
-<p>Writing is fun. But writing is also time consuming. I know it&rsquo;s a matter of practice, so let&rsquo;s make it a goal for this week! There are so many ways of filling this blog with life. Personal status updates, code walk-throughs or my latest decision of learning yet another</p>
-
-<pre><code>(nth [&quot;language&quot; &quot;dance style&quot; &quot;instrument&quot; &quot;random skill&quot;] (rand-int 4))
-</code></pre>
-
-<p>I see writing as my break from coding. The empty page will be there patiently waiting for me to fill it with letters when my brain is unable to understand why my browser console won&rsquo;t spare me with these beautiful red glowing stacktraces.</p>
-
-<p>I thought a lot about what a good outcome of this project would look like for me. After gathering all of the thoughts that have been running through my mind, I found my personal goals for this summer:</p>
-
-<h3 id="goal-of-improving-my-programming-skills">Goal of Improving my programming skills</h3>
-
-<pre><code>(-&gt;&gt; (repeat &quot;coding! &quot;) (take (rand-int 10000)) (reduce str) str/trim)
-</code></pre>
-
-<p><strong>Big Picture.</strong> I realized that I often fall into the trap of focusing too strongly on the code details. I easily understand what&rsquo;s happening inside of a function, but seeing the bigger picture takes more time. I want to bring more awareness to zooming out every once in a while to understand which part of the system is being affected by what I&rsquo;m working on. This also helps to realize early on if something is worth following through. Keep in mind to avoid <em>bikeshedding</em> and identify challenges and blockers early on!</p>
-
-<p><strong>Sense for Taste.</strong> A conversation with one of our coaches highlighted the importance of reflecting on one&rsquo;s own practices and figuring out how things are done ideally. Look at how other people approach problems and identify which patterns they use. Try out different solutions and write down what worked well and what didn&rsquo;t. Make reading code a habit, there are so many amazing publicly available projects out there!</p>
-
-<p><strong>Simplicity.</strong> Learn how to find simple solutions. Be aware when writing entangled code that is difficult to grasp for others and yourself and start to refactor. Identify the next step and reflect on its importance. Thinking of simplicity in the Clojure world is inevitably linked to Rich Hickey&rsquo;s talk <a href="https://www.infoq.com/presentations/Simple-Made-Easy">Simple Made Easy</a>).</p>
-
-<p><strong>Experience.</strong> Writing code can be the most fun and also the most painful part of being a programmer. I love the feeling of getting in the flow and every time I get to write code on a regular basis, I&rsquo;m able to see my progress within short periods of time. It&rsquo;s thrilling to see new ways of thinking developing that gradually help me to improve my code quality. On top of that, understanding how and why the tooling works the way it does is of tremendous value. Nobody likes to be blocked by things that are related with tooling.</p>
-
-<h3 id="goal-of-creating-a-knowledge-base">Goal of Creating a Knowledge Base</h3>
-
-<p>For me, there&rsquo;s something exciting about organizing knowledge. I literally safe everything of importance that I hear or read about. Which usually leads to a bunch of markdown files full of good stuff sitting on my hard drive. Not having to remember all the little details has helped me in many situations, especially in my work life. I want to work on the presentation and access of this knowledge so it can be of use not only for myself, but also for others. Looking at this project, I have two different ideas in mind:</p>
-
-<p><strong>Guides.</strong> Writing guides containing a comprehensive summary of information needed in order to understand a certain technology or pattern.</p>
-
-<p><strong>Resources.</strong> There is so much good learning material out there, which makes it challenging to get an overview. Especially for beginners, it often is not evident where to start and how to set priorities. I like the idea of creating overviews. A great example is the collection of <a href="https://github.com/matthiasn/Clojure-Resources">Clojure resources</a> that has been quite useful for me in the past. At the moment, we get to learn about so many things on a daily basis, which gives me the opportunity to create my own overview of gathered resources and personal reflections. At some point, I intend to make a post about all the resources we used during the project pointing people to the ones that might be most useful for them based on their level of experience.</p>
-
-<h3 id="goal-of-making-writing-a-habit">Goal of Making Writing a Habit</h3>
-
-<p>I will use this opportunity to learn how to break things down and continually write a bit every day. Instead of gathering tons of information over weeks, it&rsquo;s better to get my thoughts out on more specific chunks and in real time. One of my intentions is to learn how to collect the most basic information needed in order to understand how to do something. For example: What are the most important things I need to know so that I can build my own application with reagent? Remember: <em>more writing, less perfectionism.</em></p>
-
-<h3 id="goal-of-good-communication">Goal of Good Communication</h3>
-
-<p>Communication has such a big influence on my productivity and mood. I&rsquo;m becoming more and more aware of my use of language and seeing its impact . It actually started with the Clojure community in Berlin. After attending ClojureBridge, I was bursting with energy and motivation. I wanted to understand what made this workshop experience so special for me and realized next to many other things like being welcoming, dedicated and supportive, it was the positive language of the ClojureBridge organizers and coaches that left me with a feeling of excitement.</p>
-
-    </div>
-
-    <footer>
-        <ul class="stats">
-    
-        
-
-        
-        
-            <li>
-                
-                
-                    
-
-                    
-                        Categories
-                    
-                
-            </li>
-        
-    
-
-    
-    
-        <li><a href='./categories/life-updates'>life updates</a></li>
-    
-        <li><a href='./categories/by-saskia'>by saskia</a></li>
+        <li><a href='../../../../categories/by-saskia'>by saskia</a></li>
     
 </ul>
 
@@ -434,183 +403,6 @@
 
 
 
-
-        
-            <article class="post">
-    <header>
-    <div class="title">
-        
-            <h2><a href="http://www.daiyi.co/dev-diary/2017/06/29/oh-this-anticipation/">oh this anticipation</a></h2>
-        
-        
-    </div>
-    <div class="meta">
-        
-            
-        
-
-        <time class="published"
-            datetime='2017-06-29'>
-            June 29, 2017</time>
-        <span class="author">saskia</span>
-        
-        
-    </div>
-</header>
-
-
-    
-    
-
-    <div id="content">
-        <p>It&rsquo;s really happening. After many months of anticipation, we&rsquo;re so close to finally start working on <em>re-frame</em>.</p>
-
-<p>Levels of excitement are raising.<br />
-Preparations are being made.<br />
-Informations are getting exchanged.</p>
-
-<p><strong>Only four more days!</strong></p>
-
-<p>It fascinates me to realize how many people put time and energy into making this experience possible. Five months ago, my job ended unexpectedly. The next day, I saw that applications for Rails Girls Summer of Code were opening. What a happy coincidence. Through a common friend, Chris and I got connected and things started to fall into place. We talked to many people and found six amazing coaches that were willing to support us throughout the project.</p>
-
-<p>The <strong>Clojure community in Berlin</strong> had a big positive influence on both of us, which made the decision for a particular project quite easy. We wanted to deepen our experience with ClojureScript and contribute to the community that has welcomed us in such a beautiful way.</p>
-
-<p>This morning, we talked to the project maintainers for the first time. It was a great way to get a bit more of a bigger picture. They told us that <em>re-frame</em> emerged out of the intention to create richer and more sophisticated clients, which puts more stress on the client side of things than usual.</p>
-
-<p>I always ask myself, how do people start larger projects? What does the first commit look like? Well, I am going to tell you, because I could not resist to have a look at it. Here are the first lines of <em>re-frame</em>:</p>
-
-<pre><code>+re-frame
-+========
-+
-+A Reagent Framework
-</code></pre>
-
-<p>Just thinking about how these four simple lines grew into what the framework is today simply blows my mind.</p>
-
-<p>Coming from two different sides, I&rsquo;m happy to be working together with Chris on this. She has a strong background in JavaScript and React and I have a bit of practical experience with Clojure. It feels like a really good fit. Our plan for the first couple of days is getting familiar with the ClojureScript toolings and creating some sample applications with Reagent and <em>re-frame</em>.</p>
-
-<p>I&rsquo;m wondering, what will the next three months bring for us? The thought alone puts a smile on my face. We will keep you updated about all the bumps and breakthroughs we will experience. I am very happy and grateful to be part of a team full of inspiring people. Let&rsquo;s see what we can create together!</p>
-
-    </div>
-
-    <footer>
-        <ul class="stats">
-    
-        
-
-        
-        
-            <li>
-                
-                
-                    
-
-                    
-                        Categories
-                    
-                
-            </li>
-        
-    
-
-    
-    
-        <li><a href='./categories/life-updates'>life updates</a></li>
-    
-        <li><a href='./categories/by-saskia'>by saskia</a></li>
-    
-</ul>
-
-    </footer>
-</article>
-
-
-
-
-        
-            <article class="post">
-    <header>
-    <div class="title">
-        
-            <h2><a href="http://www.daiyi.co/dev-diary/2017/06/26/println-hello-world-%5Co/">(println &#34;hello world \o/&#34;)</a></h2>
-        
-        
-    </div>
-    <div class="meta">
-        
-            
-        
-
-        <time class="published"
-            datetime='2017-06-26'>
-            June 26, 2017</time>
-        <span class="author">daiyi</span>
-        
-        
-    </div>
-</header>
-
-
-    
-    
-
-    <div id="content">
-        <p>One of our goals for the summer is to <em>write</em> more, so we are aggressively setting up a whole new blog for our dedicated developer diary as we learn about clojure/clojurescript, framework development, and open source contribution! Super excited to start working on re-frame next week (I can&rsquo;t believe there&rsquo;s only a week left, what happened to June??)</p>
-
-<pre><code class="language-clojure">;; [silent screaming]
-(println &quot;hello world! \o/&quot;)
-</code></pre>
-
-<p>&lt;3, chris</p>
-
-    </div>
-
-    <footer>
-        <ul class="stats">
-    
-        
-
-        
-        
-            <li>
-                
-                
-                    
-
-                    
-                        Categories
-                    
-                
-            </li>
-        
-    
-
-    
-    
-        <li><a href='./categories/life-updates'>life updates</a></li>
-    
-        <li><a href='./categories/by-daiyi'>by daiyi</a></li>
-    
-</ul>
-
-    </footer>
-</article>
-
-
-
-
-        
-
-        
-<ul class="actions pagination">
-    
-        
-    
-
-    
-        
-    
-</ul>
 
     </div>
     
@@ -621,13 +413,13 @@ Informations are getting exchanged.</p>
             
             
                 
-                    <img src="./saskia-and-daiyi.png" width="" alt="saskia &amp; daiyi!" />
+                    <img src="../../../../saskia-and-daiyi.png" width="" alt="saskia &amp; daiyi!" />
                 
             
             
                 <header>
-                    <h2><a href="./">dev diary!</h2>
-                    <p><a href="./">saskia</a> &amp; <a href="http://daiyi.co">daiyi</a> write about their learnings in clojure(script) and open source</p>
+                    <h2><a href="../../../../">dev diary!</h2>
+                    <p><a href="../../../../">saskia</a> &amp; <a href="http://daiyi.co">daiyi</a> write about their learnings in clojure(script) and open source</p>
                 </header>
             
             <ul class="icons">
@@ -698,9 +490,6 @@ Informations are getting exchanged.</p>
 
 
                 
-                
-                    <li><a href="http://www.daiyi.co/dev-diary/index.xml" type="application/rss+xml"
-                        target="_blank" title="RSS" class="fa fa-rss"></a></li>
                 
             </ul>
         </section>
@@ -812,7 +601,7 @@ Informations are getting exchanged.</p>
         <section id="categories">
             <ul class="posts">
                 <header>
-                    <h3><a href="./categories/">Categories</a></h3>
+                    <h3><a href="../../../../categories/">Categories</a></h3>
                 </header>
 
                 
@@ -823,7 +612,7 @@ Informations are getting exchanged.</p>
                     <li>
                         <article>
                             <header>
-                                <a href="./categories/by-saskia/">by saskia</a>
+                                <a href="../../../../categories/by-saskia/">by saskia</a>
                                 <span style="float:right;">3</span>
                             </header>
                         </article>
@@ -832,7 +621,7 @@ Informations are getting exchanged.</p>
                     <li>
                         <article>
                             <header>
-                                <a href="./categories/life-updates/">life updates</a>
+                                <a href="../../../../categories/life-updates/">life updates</a>
                                 <span style="float:right;">3</span>
                             </header>
                         </article>
@@ -841,7 +630,7 @@ Informations are getting exchanged.</p>
                     <li>
                         <article>
                             <header>
-                                <a href="./categories/clojurescript/">ClojureScript</a>
+                                <a href="../../../../categories/clojurescript/">ClojureScript</a>
                                 <span style="float:right;">1</span>
                             </header>
                         </article>
@@ -850,7 +639,7 @@ Informations are getting exchanged.</p>
                     <li>
                         <article>
                             <header>
-                                <a href="./categories/by-daiyi/">by daiyi</a>
+                                <a href="../../../../categories/by-daiyi/">by daiyi</a>
                                 <span style="float:right;">1</span>
                             </header>
                         </article>
@@ -859,7 +648,7 @@ Informations are getting exchanged.</p>
                     <li>
                         <article>
                             <header>
-                                <a href="./categories/re-frame/">re-frame</a>
+                                <a href="../../../../categories/re-frame/">re-frame</a>
                                 <span style="float:right;">1</span>
                             </header>
                         </article>
@@ -899,12 +688,12 @@ Informations are getting exchanged.</p>
 
         
         
-            <script src="./js/jquery.min.js"></script>
-            <script src="./js/skel.min.js"></script>
-            <script src="./js/util.js"></script>
-            <script src="./js/main.js"></script>
-            <script src="./js/backToTop.js"></script>
-            <script src="./js/highlight.pack.js"></script>
+            <script src="../../../../js/jquery.min.js"></script>
+            <script src="../../../../js/skel.min.js"></script>
+            <script src="../../../../js/util.js"></script>
+            <script src="../../../../js/main.js"></script>
+            <script src="../../../../js/backToTop.js"></script>
+            <script src="../../../../js/highlight.pack.js"></script>
         
 
         
