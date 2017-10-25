@@ -15,7 +15,7 @@ linktitle = ""
 
 # DevTools for re-frame
 
-This summer, we worked on a project that was focused on improving the developer experience with re-frame. We want to give an overview of the tool and summarize our contributions in the following post. 
+This summer, we worked on a project that was focused on improving the developer experience with [re-frame](https://github.com/Day8/re-frame). We want to give an overview of the tool and summarize our contributions in the following post. 
 
 [//]: # (tooling and debugging)
 [//]: # (- DevTools - make coding more enjoyable - no print to console -)
@@ -30,14 +30,14 @@ How often do you print something to the console? I do it quite often. My applica
 
 ## Our Summer
 
-Thanks to getting a grant from [RGSoC](https://railsgirlssummerofcode.org), we had the opportunity to work on a dev tool for re-frame, called [re-frame-trace](https://github.com/Day8/re-frame-trace). It was a great way of learning ClojureScript while working on a project that we will be using for future projects ourselves. As we were new to re-frame, we talked to a couple of people who had used it before so that we could get a better understanding of the user needs. 
+Thanks to getting a grant from [RGSoC](https://railsgirlssummerofcode.org), we had the opportunity to work on a dev tool for re-frame, called [re-frame trace](https://github.com/Day8/re-frame-trace). It was a great way of learning ClojureScript while working on a project that we will be using for future projects ourselves. As we were new to re-frame, we talked to a couple of people who had used it before so that we could get a better understanding of the user needs. 
 
 [//]: # (re-frame)
 [//]: # (- explain a bit how it works -)
 
 ## What is re-frame?
 
-re-frame is a ClojureScript framework for building single-page applications with [Reagent](https://github.com/reagent-project/reagent). If you're from the JavaScript world, you can see that re-frame has a similar spirit as Redux. It manages the data flow through your application and enables a clear separation of concerns. Especially when working with large application state, re-frame adds a lot of value to the developer experience. 
+re-frame is a ClojureScript framework for building single-page applications with [Reagent](https://github.com/reagent-project/reagent). If you're from the JavaScript world, you can see that re-frame has a similar spirit to [Redux](http://redux.js.org/). It manages the data flow through your application and enables a clear separation of concerns. Especially when working with large application state, re-frame adds a lot of value to the developer experience. 
 
 ## What is re-frame trace?
 
@@ -52,10 +52,11 @@ When we started, the basic architecture and data already existed. The challenge 
 
 So what are our major contributions? 
 
-- Filter Improvements: The developer has multiple options to filter for the information he needs to focus on. He can search for traces containing one or more specific keywords. In cases when performance is important, it is possible to add a filter that show traces that took longer than a specific number of milliseconds. Four general trace categories help to reduce the amount of traces that are being displayed depending on the use case. 
-- App-State Visualization: Using the formatting that [cljs-devtools](https://github.com/binaryage/cljs-devtools/) provides, we were able to add a new tab to the tracing window that displays the current values in the app state. 
-- Usability Improvements: The tracing window can be smoothly adapted in width and details can be expanded and collapsed for individual traces or for all at once. Overall, we achieved to present the traces in a clean and extendable way so that the developer is not overloaded with too much information at once. 
-- Documentation: We wrote documentation for how to set up the tracing tool for re-frame projects and added a section to help developers set up the project for development. 
+- **Filter Improvements**: The developer has multiple options to filter for the information he needs to focus on. He can search for traces containing one or more specific keywords. In cases when performance is important, it is possible to add a filter that show traces that took longer than a specific number of milliseconds. Four general trace categories help to reduce the amount of traces that are being displayed depending on the use case. 
+- **App-State Visualization**: Using the formatting that [cljs-devtools](https://github.com/binaryage/cljs-devtools/) provides, we were able to add a new tab to the tracing window that displays the current values in the app state. 
+- **Usability Improvements**: The tracing window can be smoothly adapted in width and details can be expanded and collapsed for individual traces or for all at once. In a nutshell, we were able to present the traces in a clean and extendable way so that the developer is not overloaded with too much information at once. 
+- **Documentation**: We wrote documentation for how to set up the tracing tool for re-frame projects and added a section to help developers set up the project for development. 
+
 
 [//]: # (What can the tool do for you?)
 [//]: # (- put some demo gifs here along with use cases -)
@@ -64,17 +65,21 @@ So what are our major contributions?
 
 We put together three exemplary scenarios for which re-frame trace can be used. 
 
-**Scenario 1:** I want to see all events including dispatch values that have been triggered. 
+**Scenario 1:** I want to see all events including dispatch values that have been triggered.  
+(click [here](/filter-events.gif) to enlarge gif)
 
 ![re-frame trace demonstrating the category filter](filter-events.gif)
 
-**Scenario 2:** I only want to see events for checking todos that took longer than 5 milliseconds.
+**Scenario 2:** I only want to see events for checking todos that took longer than 5 milliseconds.  
+(click [here](/filtering.gif) to enlarge gif)
 
 ![re-frame trace demonstrating keyword and time filtering](filtering.gif)
 
-**Scenario 3:** I want to inspect the current values of the app-state. 
+**Scenario 3:** I want to inspect the current values of the app-state.  
+(click [here](/app-state.gif) to enlarge gif)
 
 ![re-frame trace demonstrating the app-state tab](app-state.gif)
+
 
 
 ## Future ideas
@@ -84,6 +89,7 @@ During our project, we coordinated with Daniel Compton and Mike Thompson to unde
 
 [//]: # (it's about you now)
 
-## Try out re-frame-trace!
+## Try out re-frame trace!
 
-Tell us about your developer experience on the [Clojurians Slack channel](https://clojurians.slack.com/) where you can find us as *daiyi* and *saskia* or open a github issue for bugs and ideas!
+Tell us about your developer experience on [Clojurians Slack](https://clojurians.slack.com/) where you can find us as *daiyi* and *saskia* or open a [github issue](https://github.com/Day8/re-frame-trace/issues) for bugs and ideas!
+
