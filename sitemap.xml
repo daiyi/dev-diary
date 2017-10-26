@@ -47,6 +47,12 @@
   </url>
   
   <url>
+    <loc>http://www.daiyi.co/dev-diary/categories/devtools/</loc>
+    <lastmod>2017-10-19T10:18:04+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.daiyi.co/dev-diary/categories/life-updates/</loc>
     <lastmod>2017-08-03T00:06:44+02:00</lastmod>
     <priority>0</priority>
@@ -60,6 +66,12 @@
   
   <url>
     <loc>http://www.daiyi.co/dev-diary/categories/re-frame/</loc>
+    <lastmod>2017-10-19T10:18:04+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.daiyi.co/dev-diary/categories/re-frame-trace/</loc>
     <lastmod>2017-10-19T10:18:04+02:00</lastmod>
     <priority>0</priority>
   </url>
