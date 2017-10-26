@@ -52,7 +52,7 @@ When we started, the basic architecture and data already existed. The challenge 
 
 So what are our major contributions? 
 
-- **Filter Improvements**: The developer has multiple options to filter for the information he needs to focus on. He can search for traces containing one or more specific keywords. In cases when performance is important, it is possible to add a filter that show traces that took longer than a specific number of milliseconds. Four general trace categories help to reduce the amount of traces that are being displayed depending on the use case. 
+- **Filter Improvements**: The developer has multiple options to filter for the information he needs to focus on. He can search for traces containing one or more specific keywords. In cases when performance is important, it is possible to add a filter that shows traces that took longer than a specific number of milliseconds. Four general trace categories help to reduce the amount of traces that are being displayed depending on the use case. 
 - **App-State Visualization**: Using the formatting that [cljs-devtools](https://github.com/binaryage/cljs-devtools/) provides, we were able to add a new tab to the tracing window that displays the current values in the app state. 
 - **Usability Improvements**: The tracing window can be smoothly adapted in width and details can be expanded and collapsed for individual traces or for all at once. In a nutshell, we were able to present the traces in a clean and extendable way so that the developer is not overloaded with too much information at once. 
 - **Documentation**: We wrote documentation for how to set up the tracing tool for re-frame projects and added a section to help developers set up the project for development. 
@@ -91,4 +91,4 @@ During our project, we coordinated with Daniel Compton and Mike Thompson to unde
 
 ## Try out re-frame trace!
 
-Tell us about your developer experience on the [Clojurians Slack channel](https://clojurians.slack.com/) where you can find us as *daiyi* and *saskia* or open a github issue for bugs and ideas!
+Tell us about your developer experience on [Clojurians Slack](https://clojurians.slack.com/) where you can find us as *daiyi* and *saskia* or open a github issue for bugs and ideas!
