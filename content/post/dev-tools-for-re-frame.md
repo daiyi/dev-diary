@@ -91,4 +91,4 @@ During our project, we coordinated with Daniel Compton and Mike Thompson to unde
 
 ## Try out re-frame trace!
 
-Tell us about your developer experience on [Clojurians Slack](https://clojurians.slack.com/) where you can find us as *daiyi* and *saskia* or open a github issue for bugs and ideas!
+Tell us about your developer experience on [Clojurians Slack](https://clojurians.slack.com/) where you can find us as *daiyi* and *saskia* or open a [github issue](https://github.com/Day8/re-frame-trace/issues) for bugs and ideas!
