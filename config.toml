@@ -49,9 +49,9 @@ paginate = 5
 [params.intro]
     header    = "dev diary!"
 
-    paragraph = "[saskia](/) & [daiyi](http://daiyi.co) write about their learnings in clojure(script) and open source"
+    paragraph = "[saskia](http://saskialindner.com) & [daiyi](http://daiyi.co) write about their learnings in clojure(script) and open source"
 
-    about = "*saskia!* — is super cool, loves clojure! <p>*[daiyi](http://daiyi.co)! (chris)* — a space and time traveler with a sleeping bag and sketchbook ✨ a dirtbag pretending to be a comic artist pretending to be a frontend eng</b>"
+    about = "*[saskia](http://saskialindner.com)!* — is super cool, loves clojure! <p>*[daiyi](http://daiyi.co)! (chris)* — a space and time traveler with a sleeping bag and sketchbook ✨ a dirtbag pretending to be a comic artist pretending to be a frontend eng</b>"
 
 
 # This will also appear on the sidebar.
@@ -80,7 +80,7 @@ paginate = 5
 
 [[menu.main]]
     name = "saskia"
-    url = ""
+    url = "http://saskialindner.com"
     weight = 1
 
 
